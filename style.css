@@ -9,7 +9,7 @@ html{
 nav{
     background-color: rgb(31, 31, 28);
     
-    font-weight: 100;
+    font-weight: 20;
     /* display: flex; */
     position: sticky;
     z-index: 10;
