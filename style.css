@@ -29,7 +29,7 @@ nav ul li {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 20px;
+    font-size: 13px;
 }
 nav ul li a{
     text-decoration: none;
@@ -65,7 +65,7 @@ nav ul li img{
 }
  h1{
     /* margin-bottom: 22px; */
-    font-size: 82px;
+    font-size: 62px;
 }
 
 .logo{
@@ -73,13 +73,13 @@ nav ul li img{
     right: 52px;
 }
 .name p {
-    font-size: 25px;
+    font-size: 20px;
     position: relative;
     top: 20px;
 }
 .name p span{
     color: red;
-    font-size: 40px;
+    font-size: 33px;
     margin: 0 4px;
 }
 
@@ -172,7 +172,7 @@ nav ul li img{
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 40px;
+    font-size: 20px;
     position: relative;
     top: 40px;
     
@@ -262,7 +262,7 @@ nav ul li img{
     color: #002bff;
 }
 .ek p{
-    font-size: 18px;
+    font-size: 12px;
 }
 
 
