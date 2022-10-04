@@ -185,7 +185,7 @@ nav ul li img{
     height: 40vh;
     display: flex;
     justify-content: space-between;
-    margin: 55px 23px;
+    margin: 29px 23px;
     font-size: 12px;
     
     
@@ -250,7 +250,7 @@ nav ul li img{
     position: relative;
        left: 68vw;
     
-    margin: 26px 0;
+        margin: 16px 0;
 }
 
 .int{
