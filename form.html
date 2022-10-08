@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <title>portfolio-Nitesh</title>
+
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+</head>
+  <body>
+    <nav>
+        <ul>
+            <li><img src="logo.png" alt="logo"></li>
+            <li><a href="/index.html">Home</a> </li>
+            <li><a href="index.html#about">About</a> </li>
+            <li><a href="index.html#skills">Skills</a> </li>
+            <li><a href="index.html#">contact us</a> </li>
+
+        </ul>
+    </nav>
+
+    <div class="form">
+        <div class="photo">
+            <img src="logo.png" alt="">
+            <h3>Contact with me <i class="fa fa-envelope" aria-hidden="true"></i></h3>
+        </div>
+        <div class="data">
+            <form method="post">
+                <strong>Name:</strong> <input id="one" type="text" placeholder="Enter your Name" required>
+                <strong>Email:</strong> <input id="email" type="email" placeholder="Enter your Name" required>
+                <strong>Massage:</strong> <textarea name="text" id="msg" cols="30" rows="10" placeholder="Type your Massage" required></textarea><br>
+                <button class="glow-on-hover " value="send Email" onclick="sendEmail()">Send <i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+
+            </form>
+        </div>
+    </div>
+
+
+
+    
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="script.js"></script>
+    
+  </body>
+</html>
