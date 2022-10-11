@@ -35,8 +35,8 @@ nav ul li a{
     text-decoration: none;
     color: white;
 }
-nav ul li img{
-    width: 70px;
+nav ul li img {
+    width: 2.8vw;
     border-radius: 100px;
     margin: 5px 0;
 }
@@ -68,9 +68,15 @@ nav ul li img{
     font-size: 55px;
 }
 
+        
+            
 .logo{
     position: relative;
     right: 42px;
+    width
+}
+.logo img{
+    width:35vw;
 }
 .name p {
     font-size: 20px;
