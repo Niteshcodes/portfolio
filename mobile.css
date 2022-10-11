@@ -221,20 +221,18 @@
         margin: 2.5vh 2.5vw;
         border-radius: 20px;
     }
-    .photo img{
-        width: 66vw;
-        /* margin-left: 12px; */
-        position: relative;
-        left: 1vw;
-    
-    }
-    .photo h3{
-        position: relative;
-        bottom: 30px;
-        
-            font-family: 'Dancing Script', cursive;
-    
-    }
+    .photo img {
+    width: 66vw;
+    margin-left: 0vw;
+    position: relative;
+    left: 0vw;
+}
+    .photo h3 {
+    position: relative;
+    bottom: 3vh;
+    left: 0vw;
+    font-family: 'Dancing Script', cursive;
+}
     .data{
                    
         align-items: center;
@@ -244,16 +242,16 @@
     
         
     }
-    .data form strong{
-        
-        color: rgb(38, 27, 137);
-        margin-top:10px ;
-        font-size: 22px;
-    }
+    .data form strong {
+    color: rgb(38, 27, 137);
+    margin-top: 3vh;
+    font-size: 23px;
+     }
     .data form input {
-        width: 84vw;
-        margin: 4px 0;
-    }
+    width: 83vw;
+    margin: 4px 0;
+    padding: 1vh;
+}
 
     .data form textarea{
         width:84vw;
@@ -265,14 +263,13 @@
         height: 15vw;
         
     }
-    .data form button{
-        width: 120px;
-        position: relative;
-        left: 28vw;
-        top: 7vw;
-    
-        /* bottom: 140px; */
-    }
+    .data form button {
+    width: 23vw;
+    position: relative;
+    left: 33vw;
+    top: 14vw;
+    /* bottom: 140px; */
+}
 
 
 
