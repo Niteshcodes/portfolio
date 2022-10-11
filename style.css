@@ -315,12 +315,11 @@ nav ul li img {
     left: 30px;
 
 }
-.photo h3{
+.photo h3 {
     position: relative;
-    bottom: 50px;
-    
-        font-family: 'Dancing Script', cursive;
-
+    bottom: 6vh;
+    left: 3vw;
+    font-family: 'Dancing Script', cursive;
 }
 .photo h3 i{
     color: rgb(215, 38, 38);
@@ -340,17 +339,17 @@ nav ul li img {
     
 }
 
-.data form strong{
+.data form strong {
     display: flex;
     flex-direction: column;
-    color: rgb(38, 27, 137);
-    margin-top:20px ;
-    font-size: 22px;
+    color: rgb(27 6 255 / 94%);
+    margin-top: 4px;
+    font-size: 1.5vw;
 }
 .data form input {
     width: 30vw;
-    margin: 4px 0;
-    padding: 12px;
+    margin: 3px 0;
+    padding: 0.81vw;
     border-radius: 10px;
     border: 1px solid rgba(255, 253, 254, 0.692);
     background-color: transparent;
@@ -361,22 +360,22 @@ nav ul li img {
     color: rgb(143, 42, 42);
     opacity: 100;
 }
-.data form textarea{
-    width:20vw;
-    margin:4px 0;
-    padding:10px;
-    border-radius:30px ;
-    border:1px solid rgb(246, 246, 246);
+.data form textarea {
+    width: 30vw;
+    margin: -12px 0;
+    padding: 2px;
+    border-radius: 11px;
+    border: 1px solid rgb(246, 246, 246);
     background-color: transparent;
     filter: drop-shadow(6px 7px 20px black);
     position: relative;
-    top: 20px;
+    top: 19px;
 }
 
-.data form button{
+.data form button {
     width: 120px;
-
-    /* bottom: 140px; */
+    position: relative;
+    top: 8vh;
 }
 
 
