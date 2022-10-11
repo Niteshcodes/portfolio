@@ -250,17 +250,15 @@ nav ul li img {
 
 
 
-.lang{
-    width: 300px;
-    
+.lang {
+    width: 13vw;
     position: relative;
-       left: 68vw;
-    
-        margin: 16px 0;
+    left: 79vw;
+    margin: 16px 0;
 }
 
-.int{
-    margin: 10px 90px;
+.int {
+    margin: 10px 2vw;
 }
 .f4{
     font-size: 25px;
